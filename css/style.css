@@ -1,0 +1,226 @@
+body{
+     margin:0;
+     padding:0;
+     font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+        content:"";
+        display:block;
+        clear:both;
+}
+/* background-image starts */
+.background-image{
+          width:100%;
+          height:100%;
+          background-size:cover;
+          background-image: url("../img/slide01.jpg");
+          color:#fff;
+}
+.nav h4{
+       float:left;
+       margin-left:30px;
+} 
+.nav .text-style{
+           font-weight:200;
+           font-size:15px;
+}
+
+.nav h5 {
+     float:right;
+     margin-right:30px
+}
+
+.banner {
+      width:80%;
+      text-align:center;
+      margin:0 auto;
+      position:relative;
+      top:30%;
+}
+.banner p{
+       font-weight:200;
+       letter-spacing:4px;
+}
+.banner hr {
+         width:30%;
+}
+.banner h1 {
+        font-size:70px;
+        margin-top:0;
+}
+/* background-image ends */
+
+/* two-section starts */
+
+.full-wrapper {
+        width:100%;
+        background-color: #f2f2f2;
+        padding:20px 0px;
+}
+.full-wrapper .fixed-width{
+            width:70%;
+            margin:0 auto;
+}
+.two-section .left {
+         width:45%;
+         background-color: #fff;
+         text-align:center;
+         float:left;
+         border:2px solid #dfdfdf;
+         padding-bottom:20px;
+         margin-top:50px;
+}
+.left img {
+        width:100%;
+
+}
+.left h3 {
+       font-size:11px;
+       font-weight:400;
+       letter-spacing:2px;
+       
+}
+.left hr {
+        width:50%;
+}
+.left h2 {
+        margin-top:0;
+        font-size:17px;
+        font-weight:700;
+}
+.left p {
+      text-align:left;
+      font-size:10px;
+      padding:0 30px;
+      font-weight:750;
+}
+.left button {
+         background-color: #fff;
+         width:110px;
+         height:30px;
+         font-family: 'Poppins', sans-serif;
+         border:2px solid #dfdfdf;
+         font-weight:700;
+}
+.two-section .right {
+        width:45%;
+        background-color: #fff;
+        float:right;
+        text-align:center;
+        margin-top:50px;
+        border:2px solid #dfdfdf;
+        padding-bottom:20px;
+}
+.right img{
+        width:100%;
+
+}
+
+.right h3 {
+    font-size:11px;
+    font-weight:400;
+    letter-spacing:2px;
+    
+}
+.right hr {
+     width:50%;
+}
+.right h2 {
+     margin-top:0;
+     font-size:17px;
+     font-weight:700;
+}
+.right p {
+   text-align:left;
+   font-size:10px;
+   padding:0 30px;
+   font-weight:750;
+}
+.right button {
+      background-color: #fff;
+      width:110px;
+      height:30px;
+      font-family: 'Poppins', sans-serif;
+      border:2px solid #dfdfdf;
+      font-weight:700;
+}
+/* two-section ends */
+
+/* middle starts */
+
+.middle {
+        background-image: url("../img/bg.jpg");
+        color:#fff;
+        text-align:center;
+}
+.center hr {
+      width:40%;
+}
+.center h2 {
+       margin-top:0;
+}
+/* middle ends */
+
+/* four-section starts */
+
+.four-section {
+           width:70%;
+           margin:0 auto;
+           padding:0 50px;
+           
+           
+
+}
+.four-section .center {
+       text-align:center;
+}
+.four-section .box{
+          width:40%;
+          float:left;
+          margin:10px 30px;
+          border:10px solid #fff;
+}
+.box img {
+       width:100%;
+}
+/* four-section ends */
+
+/* footer starts */
+.black-box {
+       background-color: #000;
+       color:#dfdfdf;
+       text-align:center;
+       
+}
+
+/* footer ends */
+
+/* media query starts */
+
+@media only screen and (max-width:700px){
+
+               .two-section .left{
+                     width:100%;
+                     clear:both;
+               }
+               .two-section .right{
+                       width:100%;
+                       clear:both;
+               }
+
+               .four-section .box{
+                     width:100%;
+                     clear:both;
+                     margin:10px 0;
+               }
+               .nav h4 {
+                   float:right;
+                   margin-right:20px;
+               }
+               .nav h5 {
+                     float:left;
+                     margin-left:10px;
+               }
+
+}
